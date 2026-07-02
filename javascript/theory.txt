@@ -1,0 +1,81 @@
+2. var vs let vs const.
+
+var:
+Can be redeclared, Can be reassigned ,Old way;
+
+let:
+modern way, cannot be redeclared,can be reassigned;
+
+const:
+cannot be redeclared, cannot be redeclared,used for consent valuse
+
+3. == vs ===
+==:
+Compares only value,Performs type conversion,
+
+===:
+Compares value and data type, no type conversion,
+
+4. Data Types:
+
+*Primitive Data Types:
+
+String
+Number
+Boolean
+Undefined
+Null
+BigInt
+Symbol
+
+*Non Primitive Data Types:
+
+function
+object 
+array
+
+5. Functions:
+avaScript में function reusable code ka ek block hota hai. Agar aapko ek hi kaam baar-baar karna pade, toh aap us code ko ek function ke andar likh sakte hain aur jab bhi zaroorat ho, usko call karke use kar sakte hain. Isse code DRY (Don't Repeat Yourself) rehta hai.
+
+6. DOM:
+(Document Object Model)
+DOM (Document Object Model) ek programming interface hai jo web browsers ko kisi HTML ya XML document ko tree-structure mein represent karne mein madad karta hai. Iski wajah se JavaScript kisi bhi web page ke content, structure, aur style ko real-time mein access, read, aur change kar sakta hai.
+with dom:
+Change text
+Change styles
+Add elements
+Remove elements
+Handle events
+
+7. for...of vs for...in
+Both loops are used for iteration, but they are used in different situations.
+
+for...of: 
+Yeh kisi iterable object (jaise Array, String, Map) ki values nikalne ke liye use hota hai.
+
+for...in:
+Yeh kisi object ki keys (properties) ya array ke index nikalne ke liye use hota hai.
+
+8. Events
+JavaScript mein Event ka matlab hai ki webpage par koi action (jaise click, type karna, ya page load hona) hona. Jab ye action hote hain, tab JS us par respond karta hai aur humari likhi hui function/code ko execute kar deta hai. Isse website interactive banti hai.
+
+Common Events
+click
+dblclick
+mouseover
+mouseout
+keydown
+keyup
+submit
+input
+change
+
+9. Event Delegation:
+Event Delegation is a technique where a parent element handles events for its child elements using event bubbling.
+
+10. Local Storage
+Local Storage is used to store data in the browser permanently until it is removed.
+
+11. Event Bubbling
+Event Bubbling, JavaScript mein ek event propagation ka tarika hai. Jab aap kisi nested element (ek element ke andar dusra element) par click karte hain, tab event sabse andar wale element se shuru hokar upar parents ki taraf 'bubble' (flow) karta hai.
+perent-child ki tarh work karta hai 

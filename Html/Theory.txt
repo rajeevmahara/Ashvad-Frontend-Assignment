@@ -1,0 +1,120 @@
+What is HTML?
+
+Answer:HTML (HyperText Markup Language) is the standard markup language used to create the structure of a web page. It defines elements like headings, paragraphs, images, links, forms, and buttons.
+
+<------==========================================================================================----->
+
+2. Semantic vs Non-Semantic ?
+
+Answer:Semantic tags describe the meaning of the content.
+
+example: <header>
+<nav>
+<main>
+<section>
+<article>
+<footer>
+
+Non-Semantic HTML:
+
+Answer:These tags don't describe the content; they are mainly used for grouping or styling.
+
+example:<div> and <span>
+
+<------==========================================================================================----->
+3. div vs span ?
+
+div: Block-level element, Takes full width, Used for larger sections.
+
+span: Inline element, akes only required width, Used for small text/content.
+
+<------==========================================================================================----->
+
+4. id vs class:
+
+*id:Unique,One element only,Selected using #.
+
+*class:Can be used on multiple elements, multiple element,Selected using by (.).
+
+<------==========================================================================================----->
+
+5. Block vs Inline Elements:
+
+*Block Elements:
+Start on a new line. Take full width.
+
+Examples:
+
+<div>
+<h1>
+<p>
+<section>
+
+*inline Elements:
+Stay in the same line. Take only required width.
+
+Examples:
+
+<span>
+<a>
+<strong>
+<img>
+
+<------==========================================================================================----->
+
+6. What is the alt Attribute?
+
+Answer: The alt attribute provides alternative text for an image if it cannot be displayed. It also improves accessibility 
+and SEO.
+
+example: <img src="football.jpg" alt="red football">
+
+<------==========================================================================================----->
+
+7. What is an HTML Form?
+
+An HTML Form is used to collect user input such as name, email, password, phone number, etc.
+
+Common Form Elements:
+
+<form>
+<input>
+<label>
+<button>
+<textarea>
+<select>
+
+<------==========================================================================================----->
+
+8. GET vs POST
+
+Get:GET	POST
+Sends data in the URL , Less secure , Used to fetch data,Data is visible in URL.
+
+POST:Sends data in the request body,More secure , Used to send/save data, Data is not visible in URL.
+
+<------==========================================================================================----->
+9. Name Five Semantic Tags
+
+Answer:
+
+<header>
+<nav>
+<main>
+<section>
+<footer>
+
+<------==========================================================================================----->
+
+10. What is the Importance of Semantic HTML?
+
+Answer:
+Semantic HTML improves:
+
+Readability of code:
+SEO (Search Engine Optimization)
+Accessibility for screen readers.
+Code maintenance.
+Website structure.
+
+<------==========================================================================================----->

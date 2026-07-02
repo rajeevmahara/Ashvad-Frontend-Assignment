@@ -1,0 +1,57 @@
+1. What is the CSS Box Model?
+
+Answer:The CSS Box Model defines how the size and space of an HTML element are calculated.
+parts===>
+Content.
+Padding.
+Border.
+Margin.
+<------==========================================================================================----->
+2. Margin vs Padding
+Answer:
+*Margin:
+Space outside the border , Creates gap between elements:
+
+*Padding:
+Space inside the border,Creates gap between content and border.
+<------==========================================================================================----->
+3. Flexbox vs Grid
+Answer:
+*Flexbox:              vs            **Grid
+One-dimensional                    Two-dimensional
+Row or Column                      Rows and Columns
+Best for Navbar                    Best for Page Layout
+<------==========================================================================================----->
+4. What is Responsive Design?
+Answer:
+Responsive Design makes a website look good on mobile, tablet, and desktop.
+<------==========================================================================================----->
+5. What are Media Queries?
+Answer:
+
+Media Queries apply different CSS styles based on screen size.
+<------==========================================================================================----->
+6. Positioning in CSS.
+Answer:
+The CSS position property defines how an element is placed on a web page.
+<------==========================================================================================----->
+7. display: none vs visibility: hidden
+Answer:
+*display: none
+Element is removed from the page:
+
+*visibility: hidden
+element is hidden but still takes space
+<------==========================================================================================----->
+8. What is CSS Specificity?
+Answer:
+Specificity decides which CSS rule is applied when multiple rules target the same element.
+<------==========================================================================================----->
+9. What are CSS Transitions?
+Answer:
+Transitions make property changes happen smoothly.
+<------==========================================================================================----->
+10. What are CSS Animations?
+Answer:
+Animations make elements move or change automatically using @keyframes.
+<------==========================================================================================----->

@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:white;
+    color:black;
+    transition:0.3s;
+}
+
+.container{
+    text-align:center;
+    margin-top:100px;
+}
+
+button{
+    padding:10px 20px;
+    font-size:16px;
+    cursor:pointer;
+    border:none;
+    border-radius:5px;
+    background:#333;
+    color:white;
+}
+
+/* DARK THEME */
+.dark{
+    background:#1a1a1a;
+    color:white;
+}
+
+.dark button{
+    background:white;
+    color:black;
+}

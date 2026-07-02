@@ -1,0 +1,274 @@
+/* =======================
+   Global Style
+======================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+/* =======================
+   Navbar
+======================= */
+
+header{
+    background:#111;
+    position:sticky;
+    top:0;
+}
+
+nav{
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 0;
+}
+
+nav h2{
+    color:#ff6600;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#ff6600;
+}
+
+nav button{
+    background:#ff6600;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+nav button:hover{
+    background:#e65c00;
+}
+
+/* =======================
+   Hero Section
+======================= */
+
+section{
+    padding:60px 10%;
+}
+
+section:first-of-type{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:100px 10%;
+}
+
+section:first-of-type h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+section:first-of-type p{
+    margin-bottom:25px;
+}
+
+section:first-of-type button{
+    padding:12px 25px;
+    background:#ff6600;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+/* =======================
+   About
+======================= */
+
+h2{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+section p{
+    text-align:center;
+    line-height:1.8;
+}
+
+/* =======================
+   Registration Form
+======================= */
+
+form{
+    width:400px;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+form input,
+form select{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+form input[type="radio"]{
+    width:auto;
+}
+
+form button{
+    width:100%;
+    padding:12px;
+    background:#ff6600;
+    color:white;
+    border:none;
+    cursor:pointer;
+    border-radius:5px;
+    margin-top:15px;
+}
+
+form button:hover{
+    background:#e65c00;
+}
+
+/* =======================
+   Trainer Cards
+======================= */
+
+section:nth-of-type(4){
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+section:nth-of-type(4) div{
+    width:280px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+    text-align:center;
+    transition:.3s;
+}
+
+section:nth-of-type(4) div:hover{
+    transform:translateY(-10px);
+}
+
+section:nth-of-type(4) img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* =======================
+   Gallery
+======================= */
+
+section:nth-of-type(5){
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+section:nth-of-type(5) img{
+    width:250px;
+    border-radius:10px;
+    transition:.3s;
+}
+
+section:nth-of-type(5) img:hover{
+    transform:scale(1.05);
+}
+
+/* =======================
+   FAQ
+======================= */
+
+details{
+    background:white;
+    width:70%;
+    margin:15px auto;
+    padding:15px;
+    border-radius:8px;
+}
+
+summary{
+    cursor:pointer;
+    font-weight:bold;
+}
+
+/* =======================
+   Contact
+======================= */
+
+section:last-of-type{
+    text-align:center;
+}
+
+/* =======================
+   Footer
+======================= */
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* =======================
+   Responsive
+======================= */
+
+@media(max-width:768px){
+
+nav{
+    flex-direction:column;
+    gap:20px;
+}
+
+nav ul{
+    flex-direction:column;
+    text-align:center;
+}
+
+section:first-of-type h1{
+    font-size:35px;
+}
+
+form{
+    width:100%;
+}
+
+details{
+    width:100%;
+}
+
+}
