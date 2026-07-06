@@ -1,6 +1,6 @@
 What is HTML?
 
-Answer:HTML (HyperText Markup Language) is the standard markup language used to create the structure of a web page. It defines elements like headings, paragraphs, images, links, forms, and buttons.
+Answer:HTML (HyperText Markup Language) is the standard markup language used to create the structure of a web page. It defines elements like headings, paragraphs, images, links, forms and buttons.
 
 <------==========================================================================================----->
 

@@ -1,3 +1,4 @@
+// 1: Reverse an Array
 let num=[1,2,3,4,5,6,7,8];
 
 let reverseArray=num.reverse();
@@ -8,26 +9,26 @@ let reverseArray=num.reverse();
 let num1= 2;
 let num2 =5;
  let Sum= num1 + num2;
- console.log(sum);
+ console.log(Sum);
 
 // method 2:
 //  (using input user)
-let num1=Number(prompt("enter your num"));
-let num2=Number(prompt("enter your num"));
+let num1=Number(prompt("enter first num:- "));
+let num2=Number(prompt("enter second num:- "));
 
 let sum = num1+num2;
-console.log(sum);
+console.log("Sum of two numbers: ", sum);
 
 // 3: Largest Number in an Array
 let number =[ 30, 40, 60 ,5000, 800];
 
-let Largest=math.max(...number);
+let Largest=Math.max(...number);
  console.log(Largest);
 
 // 4: Palindrome
 
 let word="madam";
-let reverseword= word.split("").reverse.join("");
+let reverseword= word.split("").reverse().join("");
 if (word=== reverseword){
 console.log("palindrome");
 } else {
@@ -52,9 +53,9 @@ for(let char of word){
 
     }
 }
-console.log("total vowels:", count);
+console.log("total vowels:", Count);
 
-
+// 9: Char and word count
 let name="rajeev mahara"
 let charCount= name.length;
 let wordCount=name.split(" ").length;

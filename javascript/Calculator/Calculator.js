@@ -1,17 +1,21 @@
 let display = document.getElementById("display");
 
 // number + operator add karna
-function appendValue(value){
+function appendValue(value) {
     display.value += value;
 }
 
+function append(value) {
+    appendValue(value);
+}
+
 // clear all (C button)
-function clearDisplay(){
+function clearDisplay() {
     display.value = "";
 }
 
 // final calculation (= button)
-function calculate(){
+function calculate() {
     try {
         display.value = eval(display.value);
     } catch (error) {

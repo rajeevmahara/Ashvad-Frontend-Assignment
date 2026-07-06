@@ -1,0 +1,13 @@
+:- Practical not in Practical Folder 
+:-Answer written but Question not here--in 2 Answer (javascript\Reverse.js)
+:-sum is not defined in (//2: Sum of Two Numbers)
+:-Define user input properly -(// method 2:
+//  (using input user))
+:-let Largest=math.max(...number);
+            ^
+
+ReferenceError: math is not defined(3: Largest Number in an Array)
+:-brackets issue in Reverse function( 4: Palindrome)
+:-count is not defined(// 5: Count Vowels)
+
+:-calculator not wroking- (fixed)
