@@ -38,7 +38,7 @@ Rajeev_Mahara_Frontend_Assignment/
 │   ├── Reverse.js
 │   └── theory.txt
 ├── finalproject/
-│   └── (pending)
+│   └── (Completed)
 └── README.md
 ```
 
@@ -49,7 +49,7 @@ Rajeev_Mahara_Frontend_Assignment/
 | HTML         | ✅ Completed  |
 | CSS          | ✅ Completed  |
 | JavaScript   | ✅ Completed  |
-| Final Project (Portfolio) | ⏳ Pending — to be completed next |
+| Final Project (Portfolio) completed |
 
 > Note: HTML, CSS, and JavaScript theory + practical sections are complete. The Final Project (Responsive Personal Portfolio Website) is **not yet started/completed** and will be submitted in the next update.
 
